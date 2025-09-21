@@ -1,3 +1,5 @@
+#Done
+
 def print_animal_details(animal):
     print(f"Name: {animal['name']}, Species: {animal['species']}, Legs: {animal['legs']}, Habitat: {animal['habitat']}")
 
