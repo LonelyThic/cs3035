@@ -9,4 +9,11 @@ lab2.docx
 lab2.pdf
 Lab3/*.png
 Lab4/*.png
+!*.c
+!*.py
+!*.java
+!*.cpp
+!*.js
+!*.html
+!*.css
 *[^.]*
