@@ -17,3 +17,4 @@ Lab4/*.png
 !*.html
 !*.css
 *[^.]*
+*.png
