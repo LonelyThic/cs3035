@@ -1,7 +1,3 @@
-/*
-Checked off as done
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -9,7 +5,7 @@ Checked off as done
 int main() {
     int n;
     char **zoo;
-    
+
     do {
         printf("Enter the capacity of the zoo (must be > 4): ");
         scanf("%d", &n);

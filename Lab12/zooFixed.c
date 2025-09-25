@@ -1,7 +1,3 @@
-/*
-Checked off as done
-*/
-
 #include <stdio.h>
 
 int main() {
