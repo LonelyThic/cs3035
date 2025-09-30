@@ -1,12 +1,6 @@
 /*
- * CS 3035 Homework 2 - Q2
- * File: workdays.c
- * Description:
- *   Prompts user for a day of the week (0–6) and
- *   tells whether it is a workday or weekend.
- *   Uses enumeration and switch case without magic numbers.
- */
-
+done checked
+*/
 #include <stdio.h>
 
 int main() {
