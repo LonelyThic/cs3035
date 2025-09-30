@@ -18,3 +18,4 @@ Lab4/*.png
 !*.css
 !*/
 *.png
+.vscode/*
