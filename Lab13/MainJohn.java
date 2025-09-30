@@ -1,47 +1,21 @@
-// Part 1 code is commented out
-// Part 2: Private Methods
-
-class John {
-
-    // Part 1: Public Methods
-
-    public void MowLawn(String neighbor) {
-        System.out.println("John is mowing the lawn for " + neighbor + ".");
-    }
-
-    public void FixCar(String neighbor, String carModel) {
-        System.out.println("John is fixing " + neighbor + "'s " + carModel + ".");
-    }
-
-    public void PaintHouse(String neighbor) {
-        System.out.println("John is painting the house for " + neighbor + ".");
-    }
-
-    // Part 2: Private Methods
-    /*
-     * private void MowLawn(String neighbor) {
-     * System.out.println("John is mowing the lawn for " + neighbor + ".");
-     * }
-     * 
-     * private void FixCar(String neighbor, String carModel) {
-     * System.out.println("John is fixing " + neighbor + "'s " + carModel + ".");
-     * }
-     * 
-     * private void PaintHouse(String neighbor) {
-     * System.out.println("John is painting the house for " + neighbor + ".");
-     * }
-     */
-}
-
 public class MainJohn {
     public static void main(String[] args) {
-        John john = new John();
+        John helpfulJohn = new John();
 
-        // Part 1
+        System.out.println();
+        System.out.println("This output of Public:");
+        System.out.println();
 
-        john.MowLawn("Mr. Smith");
-        john.FixCar("Mrs. Johnson", "Toyota Camry");
-        john.PaintHouse("The Andersons");
+        helpfulJohn.MowLawn("Alice");
+        helpfulJohn.FixCar("Bob", "Toyota");
+        helpfulJohn.PaintHouse("Charlie");
 
+        John busyJohn = new John();
+
+        System.out.println();
+        System.out.println("This output of Private:");
+        System.out.println();
+
+        busyJohn.PrivateTasks();
     }
 }
