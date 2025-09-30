@@ -1,6 +1,3 @@
-/*
-done checked
-*/
 #include <stdio.h>
 
 int main() {

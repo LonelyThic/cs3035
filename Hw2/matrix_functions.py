@@ -1,5 +1,3 @@
-#donne checked
-
 from enum import IntEnum
 
 class Row(IntEnum):
