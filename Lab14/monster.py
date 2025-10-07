@@ -34,8 +34,8 @@ if __name__ == "__main__":
     godzilla.attack("Tokyo")
     kong.attack("New York")
 
-    print("godzilla == kong ?", godzilla == kong)
-    print("godzilla == another_godzilla ?", godzilla == another_godzilla)
+    print("godzilla == kong?", godzilla == kong)
+    print("godzilla == another_godzilla?", godzilla == another_godzilla)
 
     fusion_monster = godzilla + kong
     print(fusion_monster)
