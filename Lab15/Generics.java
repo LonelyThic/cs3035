@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-// Generic Entry class
 class Entry<T> {
     private String typeName;
     private T value;
