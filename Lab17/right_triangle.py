@@ -2,7 +2,6 @@ import math
 
 class RightTriangle:
     def __init__(self, side1, side2, hyp=None):
-        """Initializes a RightTriangle with two sides and optional hypotenuse."""
         try:
             self.side1 = float(side1)
             self.side2 = float(side2)
@@ -20,7 +19,6 @@ class RightTriangle:
                 raise ValueError("Error: sides do not form a valid Pythagorean triple.")
     
     def __eq__(self, other):
-        """Checks if two right triangles are approximately equal."""
         if not isinstance(other, RightTriangle):
             return False
         
@@ -33,5 +31,4 @@ class RightTriangle:
         return sides_close_direct or sides_close_swapped
     
     def __str__(self):
-        """Returns a nicely formatted string for the triangle."""
         return f"Right Triangle with side a = {self.side1:.2f}, side b = {self.side2:.2f}, and hypotenuse = {self.hyp:.2f}"

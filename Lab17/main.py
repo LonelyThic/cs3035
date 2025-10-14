@@ -1,7 +1,6 @@
 from right_triangle import RightTriangle
 
 def get_triangle_input(prompt_count):
-    """Prompts the user for valid triangle sides and returns a RightTriangle object."""
     while True:
         try:
             values = input(f"Enter {prompt_count} nonnegative numeric value(s) for the sides (separated by spaces): ").split()
