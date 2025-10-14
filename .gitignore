@@ -20,3 +20,4 @@ Lab4/*.png
 *.png
 .vscode/*
 *.!**
+*_pycache_*
