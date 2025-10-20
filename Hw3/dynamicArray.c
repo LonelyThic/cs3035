@@ -1,7 +1,3 @@
-/*
-checked and works fine
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
