@@ -18,8 +18,8 @@ def scientificCalculator(mathFunction, a, b, *args):
 # --- Test the Calculator ---
 
 if __name__ == "__main__":
-    c1 = complex(2, 3)
-    c2 = complex(4, 5)
+    c1 = complex(4, 5)
+    c2 = complex(6, 7)
     result1 = scientificCalculator(complexNumberAdder, c1, c2)
     print("Complex Number Adder Result:", result1)
 
