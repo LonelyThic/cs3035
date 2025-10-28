@@ -1,0 +1,11 @@
+class Person(val name: String, val age: Int) {
+    fun introduce() {
+        println("Hello, my name is $name and I am $age years old.")
+    }
+}
+
+fun main() {
+    println("=== Kotlin Class Example ===")
+    val person = Person("Alice", 22)
+    person.introduce()
+}
