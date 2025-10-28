@@ -1,5 +1,5 @@
 fun main() {
-    println("=== Account Balance and PIN ===")
+    println("Account Balance and PIN")
     print("Enter your account balance: ")
     var accountBalance = readLine()!!.toDouble()
 

@@ -1,5 +1,5 @@
 fun main() {
-    println("=== Get Day of the Week ===")
+    println("Get Day of the Week")
     print("Enter a number from 1 to 7: ")
     val dayNumber = readLine()!!.toInt()
 

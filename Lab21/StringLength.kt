@@ -1,5 +1,5 @@
 fun main() {
-    println("=== String Length ===")
+    println("String Length")
     print("Enter a string: ")
     val inputString = readLine()!!
 

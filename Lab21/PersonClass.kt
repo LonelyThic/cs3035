@@ -5,7 +5,7 @@ class Person(val name: String, val age: Int) {
 }
 
 fun main() {
-    println("=== Kotlin Class Example ===")
+    println("Kotlin Class Example")
     val person = Person("Alice", 22)
     person.introduce()
 }

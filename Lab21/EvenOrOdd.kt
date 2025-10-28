@@ -1,5 +1,5 @@
 fun main() {
-    println("=== Even or Odd ===")
+    println("Even or Odd")
     print("Enter a number: ")
     val number = readLine()!!.toInt()
 
