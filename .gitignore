@@ -21,3 +21,4 @@ Lab4/*.png
 .vscode/*
 *.!**
 *_pycache_*
+*.jar
