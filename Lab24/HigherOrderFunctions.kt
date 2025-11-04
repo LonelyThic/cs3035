@@ -1,3 +1,5 @@
+import jotlin.math.pow
+
 fun add(a: Int, b: Int): Int = a + b
 fun subtract(a: Int, b: Int): Int = a - b
 fun multiply(a: Int, b: Int): Int = a * b
@@ -11,7 +13,7 @@ fun mathOperation(operation: (Int, Int) -> Int): (Int, Int) -> Int {
 }
 
 fun main() {
-    println("------ Part 1: Function as Input Argument ------")
+    println("Part 1: Function as Input Argument")
 
     val a = 5
     val b = 3
@@ -22,7 +24,7 @@ fun main() {
 
     println("Power (Lambda): ${mathOperation(a, b) { x, y -> x.toDouble().pow(y).toInt() }}")
 
-    println("\n------ Part 2: Returning a Function ------")
+    println("\nPart 2: Returning a Function")
 
     val addFunction = mathOperation(::add)
     val subtractFunction = mathOperation(::subtract)
