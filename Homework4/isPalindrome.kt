@@ -1,6 +1,6 @@
-fun isPalindrome(s: String): Boolean = s == s.reversed()
+fun isPalindrome(str: String): Boolean = str == str.reversed()
 
 fun main() {
-    println("racecar → ${isPalindrome("racecar")}")
-    println("hello → ${isPalindrome("hello")}")
+    println(isPalindrome("racecar"))
+    println(isPalindrome("hello"))
 }
