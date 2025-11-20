@@ -1,5 +1,4 @@
 class curriedCalculator {
-
     fun add(a: Int): (Int) -> Int {
         return { b -> a + b }
     }
